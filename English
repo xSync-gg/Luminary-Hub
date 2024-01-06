@@ -189,7 +189,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://15435099885"
+ImageButton1.Image = "rbxassetid://15418687340"
 ImageButton1.MouseButton1Down:connect(function()
 game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -200,7 +200,7 @@ UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1
 UIGradient.Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 132, 255)),
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 138))
 }
 UIGradient.Parent = UIStroke
 
@@ -320,7 +320,7 @@ function Update:Window(text,logo,keybind)
     BtnStroke.Name = "BtnStroke"
     BtnStroke.Parent = Main
     BtnStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-    BtnStroke.Color = Color3.fromRGB(255, 0, 0)
+    BtnStroke.Color = Color3.fromRGB(0, 0, 138)
     BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
     BtnStroke.Thickness = 1
     BtnStroke.Transparency = 0
@@ -391,7 +391,7 @@ function Update:Window(text,logo,keybind)
     UserText.TextColor3 = Color3.fromRGB(255, 255, 255)
     UserText.Size = UDim2.new(0, 80, 0, 25)
     UserText.Font = Enum.Font.GothamSemibold
-    UserText.Text = "Sync Hub"
+    UserText.Text = "SYNC HUB"
     UserText.TextScaled = true
     UserText.TextSize = 17.000
     UserText.TextWrapped = true
@@ -408,7 +408,7 @@ function Update:Window(text,logo,keybind)
   --  UserImage.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
     UserImage.Position = UDim2.new(0, 10, 0, -15)
     UserImage.Size = UDim2.new(0, 25, 0, 25)
-    UserImage.Image = "rbxassetid://15435099885"
+    UserImage.Image = "rbxassetid://15418687340"
     local UserImageCorner = Instance.new("UICorner")
     UserImageCorner.CornerRadius = UDim.new(0, 100)
     UserImageCorner.Name = "UserImageCorner"
@@ -421,7 +421,7 @@ function Update:Window(text,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, -5, 0, -5)
 	Logo.Size = UDim2.new(0, 135, 0, 135)
-	Logo.Image = "rbxassetid://15479783092"
+	Logo.Image = "rbxassetid://15418687340"
     local Tab = Instance.new("Frame")
     Tab.Name = "Tab"
     Tab.Parent = Main
@@ -440,7 +440,7 @@ function Update:Window(text,logo,keybind)
     ScrollTab.Name = "ScrollTab"
     ScrollTab.Parent = Tab
     ScrollTab.Active = true
-    ScrollTab.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+    ScrollTab.BackgroundColor3 = Color3.fromRGB(0, 0, 138)
     ScrollTab.BackgroundTransparency = 1.000
     ScrollTab.Size = UDim2.new(0, 133, 0, 203)
     ScrollTab.CanvasSize = UDim2.new(0, 0, 0, 0)
@@ -554,7 +554,7 @@ function Update:Window(text,logo,keybind)
         BtnStroke.Name = "BtnStroke"
         BtnStroke.Parent = TabButton
         BtnStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        BtnStroke.Color = Color3.fromRGB(255, 0, 0)
+        BtnStroke.Color = Color3.fromRGB(0, 0, 138)
         BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
         BtnStroke.Thickness = 1
         BtnStroke.Transparency = 0
@@ -655,7 +655,7 @@ function Update:Window(text,logo,keybind)
 
         NotificationHold.Name = "NotificationHold"
         NotificationHold.Parent = Main
-        NotificationHold.BackgroundColor3 = Color3.new(255, 0, 0)
+        NotificationHold.BackgroundColor3 = Color3.new(0, 0, 138)
         NotificationHold.BackgroundTransparency = 1
         NotificationHold.BorderSizePixel = 0
         NotificationHold.Size = UDim2.new(0, 589, 0, 378)
@@ -733,7 +733,7 @@ function Update:Window(text,logo,keybind)
         NotificationTitle.ZIndex = 3
         NotificationTitle.Font = Enum.Font.GothamSemibold
         NotificationTitle.Text = "Notification"
-        NotificationTitle.TextColor3 = Color3.fromRGB(255, 0, 0)
+        NotificationTitle.TextColor3 = Color3.fromRGB(0, 0, 138)
         NotificationTitle.TextSize = 22.000
 
         Line.Name = "Line"
@@ -799,7 +799,7 @@ function Update:Window(text,logo,keybind)
 
         Button.Name = "Button"
         Button.Parent = MainFramePage
-        Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        Button.BackgroundColor3 = Color3.fromRGB(0, 0, 138)
         Button.Size = UDim2.new(0, 387, 0, 31)
 
         UICorner.CornerRadius = UDim.new(0, 5)
@@ -823,7 +823,7 @@ function Update:Window(text,logo,keybind)
         ImageButton.BorderSizePixel = 0
         ImageButton.Position = UDim2.new(0, 350, 0, 6)
         ImageButton.Size = UDim2.new(0, 20, 0, 20)
-        ImageButton.Image = "rbxassetid://15435099885"
+        ImageButton.Image = "rbxassetid://15418687340"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -916,7 +916,7 @@ function Update:Window(text,logo,keybind)
         UIStroke.Name = "UIStroke"
         UIStroke.Parent = CheckFrame2
         UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        UIStroke.Color = Color3.fromRGB(255, 0, 0)
+        UIStroke.Color = Color3.fromRGB(0, 0, 138)
         UIStroke.LineJoinMode = Enum.LineJoinMode.Round
         UIStroke.Thickness = 1
         UIStroke.Transparency = 0
@@ -933,7 +933,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 5, 0, 6)
         ImageLabel.Size = UDim2.new(0, 20, 0, 20)
-        ImageLabel.Image = "rbxassetid://15435099885"
+        ImageLabel.Image = "rbxassetid://15418687340"
         ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         Space.Name = "Space"
@@ -1029,7 +1029,7 @@ function Update:Window(text,logo,keybind)
         UIStroke.Name = "UIStroke"
         UIStroke.Parent = Dropdown
         UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        UIStroke.Color = Color3.fromRGB(255, 0, 0)
+        UIStroke.Color = Color3.fromRGB(0, 0, 138)
         UIStroke.LineJoinMode = Enum.LineJoinMode.Round
         UIStroke.Thickness = 1
         UIStroke.Transparency = 0
@@ -1052,7 +1052,7 @@ function Update:Window(text,logo,keybind)
         DropScroll.Name = "DropScroll"
         DropScroll.Parent = DropTitle
         DropScroll.Active = true
-        DropScroll.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        DropScroll.BackgroundColor3 = Color3.fromRGB(0, 0, 138)
         DropScroll.BackgroundTransparency = 1.000
         DropScroll.BorderSizePixel = 0
         DropScroll.Position = UDim2.new(0, 0, 0, 31)
@@ -1070,7 +1070,7 @@ function Update:Window(text,logo,keybind)
 
         DropButton.Name = "DropButton"
         DropButton.Parent = Dropdown
-        DropButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        DropButton.BackgroundColor3 = Color3.fromRGB(0, 0, 138)
         DropButton.BackgroundTransparency = 1.000
         DropButton.Size = UDim2.new(0, 385, 0, 31)
         DropButton.Font = Enum.Font.SourceSans
@@ -1254,7 +1254,7 @@ function Update:Window(text,logo,keybind)
         -- Prop --
         SliderFrame.Name = slidertitle or "SliderFrame"
         SliderFrame.Parent = MainFramePage
-        SliderFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        SliderFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 138)
         SliderFrame.BackgroundTransparency = 1.000
         SliderFrame.BorderSizePixel = 0
         SliderFrame.Size = UDim2.new(0, 387, 0, 60)
@@ -1270,7 +1270,7 @@ function Update:Window(text,logo,keybind)
         UIStroke.Name = "UIStroke"
         UIStroke.Parent = SliderFrame_2
         UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        UIStroke.Color = Color3.fromRGB(255, 0, 0)
+        UIStroke.Color = Color3.fromRGB(0, 0, 138)
         UIStroke.LineJoinMode = Enum.LineJoinMode.Round
         UIStroke.Thickness = 1
         UIStroke.Transparency = 0
@@ -1287,7 +1287,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
         ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-        ImageLabel.Image = "rbxassetid://15435099885"
+        ImageLabel.Image = "rbxassetid://15418687340"
             
         Title.Parent = SliderFrame_2
         Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -1321,7 +1321,7 @@ function Update:Window(text,logo,keybind)
     
         SliderCount.Name = "SliderCount"
         SliderCount.Parent = SliderButton
-        SliderCount.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        SliderCount.BackgroundColor3 = Color3.fromRGB(0, 0, 138)
         SliderCount.BackgroundTransparency = 0.3
         SliderCount.BorderSizePixel = 0
         SliderCount.Position = UDim2.new(0,start,0,0)
@@ -1350,7 +1350,7 @@ function Update:Window(text,logo,keybind)
         SliderStroke.Name = "SliderStroke"
         SliderStroke.Parent = BoxFrame
         SliderStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        SliderStroke.Color = Color3.fromRGB(255, 0, 0)
+        SliderStroke.Color = Color3.fromRGB(0, 0, 138)
         SliderStroke.LineJoinMode = Enum.LineJoinMode.Round
         SliderStroke.Thickness = 1
         SliderStroke.Transparency = 0.5
@@ -1572,7 +1572,7 @@ function Update:Window(text,logo,keybind)
 
         Textbox.Name = "Textbox"
         Textbox.Parent = MainFramePage
-        Textbox.BackgroundColor3 = Color3.new(255, 0, 0)
+        Textbox.BackgroundColor3 = Color3.new(0, 0, 138)
         Textbox.BackgroundTransparency = 0
         Textbox.Size = UDim2.new(0, 387, 0, 31)
 
@@ -1701,7 +1701,7 @@ function Update:Window(text,logo,keybind)
         
         Textbox.Name = "Textbox"
         Textbox.Parent = MainFramePage
-        Textbox.BackgroundColor3 = Color3.new(255, 0, 0)
+        Textbox.BackgroundColor3 = Color3.new(0, 0, 138)
         Textbox.BackgroundTransparency = 0
         Textbox.Size = UDim2.new(0, 387, 0, 31)
         
@@ -1721,7 +1721,7 @@ function Update:Window(text,logo,keybind)
         
         TextboxLabel.Name = "TextboxLabel"
         TextboxLabel.Parent = Textbox
-        TextboxLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        TextboxLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 138)
         TextboxLabel.BackgroundTransparency = 1.000
         TextboxLabel.Position = UDim2.new(0, 15, 0, 0)
         TextboxLabel.Text = text
@@ -1751,7 +1751,7 @@ function Update:Window(text,logo,keybind)
         RealTextbox.Size = UDim2.new(0, 100, 0, 24)
         RealTextbox.Font = Enum.Font.GothamSemibold
         RealTextbox.Text = ""
-        RealTextbox.TextColor3 = Color3.fromRGB(255, 0, 0)
+        RealTextbox.TextColor3 = Color3.fromRGB(0, 0, 138)
         RealTextbox.TextSize = 11.000
         RealTextbox.TextTransparency = 0
 
@@ -1870,7 +1870,7 @@ function Update:Window(text,logo,keybind)
 
         Sep1.Name = "Sep1"
         Sep1.Parent = Seperator
-        Sep1.BackgroundColor3 = Color3.new(255, 0, 0)
+        Sep1.BackgroundColor3 = Color3.new(0, 0, 138)
         Sep1.BorderSizePixel = 0
         Sep1.Position = UDim2.new(0, 0, 0, 10)
         Sep1.Size = UDim2.new(0, 80, 0, 1)
@@ -1888,7 +1888,7 @@ function Update:Window(text,logo,keybind)
 
         Sep3.Name = "Sep3"
         Sep3.Parent = Seperator
-        Sep3.BackgroundColor3 = Color3.new(255, 0, 0)
+        Sep3.BackgroundColor3 = Color3.new(0, 0, 138)
         Sep3.BorderSizePixel = 0
         Sep3.Position = UDim2.new(0, 300, 0, 10)
         Sep3.Size = UDim2.new(0, 80, 0, 1)
@@ -1907,7 +1907,7 @@ function Update:Window(text,logo,keybind)
         
         Line.Name = "Line"
         Line.Parent = Linee
-        Line.BackgroundColor3 = Color3.new(255, 0, 0)
+        Line.BackgroundColor3 = Color3.new(0, 0, 138)
         Line.BorderSizePixel = 0
         Line.Position = UDim2.new(0, 0, 0, 10)
         Line.Size = UDim2.new(0, 410, 0, 1)
@@ -2802,14 +2802,14 @@ function UpdateFlowerChams()
 						name.TextYAlignment = 'Top'
 						name.BackgroundTransparency = 1
 						name.TextStrokeTransparency = 0.5
-						name.TextColor3 = Color3.fromRGB(255, 0, 0)
+						name.TextColor3 = Color3.fromRGB(0, 0, 138)
 						if v.Name == "Flower1" then 
 							name.Text = ("Blue Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
 							name.TextColor3 = Color3.fromRGB(0, 0, 255)
 						end
 						if v.Name == "Flower2" then
 							name.Text = ("Red Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
-							name.TextColor3 = Color3.fromRGB(255, 0, 0)
+							name.TextColor3 = Color3.fromRGB(0, 0, 138)
 						end
 					else
 						v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
@@ -2842,7 +2842,7 @@ function UpdateRealFruitChams()
 					name.TextYAlignment = 'Top'
 					name.BackgroundTransparency = 1
 					name.TextStrokeTransparency = 0.5
-					name.TextColor3 = Color3.fromRGB(255, 0, 0)
+					name.TextColor3 = Color3.fromRGB(0, 0, 138)
 					name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
 				else
 					v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -3095,14 +3095,14 @@ function UpdateFlowerChams()
 						name.TextYAlignment = 'Top'
 						name.BackgroundTransparency = 1
 						name.TextStrokeTransparency = 0.5
-						name.TextColor3 = Color3.fromRGB(255, 0, 0)
+						name.TextColor3 = Color3.fromRGB(0, 0, 138)
 						if v.Name == "Flower1" then 
 							name.Text = ("Blue Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
 							name.TextColor3 = Color3.fromRGB(0, 0, 255)
 						end
 						if v.Name == "Flower2" then
 							name.Text = ("Red Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
-							name.TextColor3 = Color3.fromRGB(255, 0, 0)
+							name.TextColor3 = Color3.fromRGB(0, 0, 138)
 						end
 					else
 						v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
@@ -3135,7 +3135,7 @@ function UpdateRealFruitChams()
 					name.TextYAlignment = 'Top'
 					name.BackgroundTransparency = 1
 					name.TextStrokeTransparency = 0.5
-					name.TextColor3 = Color3.fromRGB(255, 0, 0)
+					name.TextColor3 = Color3.fromRGB(0, 0, 138)
 					name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
 				else
 					v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -3826,8 +3826,9 @@ getgenv().HyperCahayas = function(p)
     end)
     
 
-local Library = Update:Window("Sync Hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("Apple Hub","",Enum.KeyCode.RightControl);
 
+local NguyenTien = Library:AddTab("Information","4483345998")
 local Main = Library:AddTab("Main","4483345998")
 local M = Library:AddTab("Item","4483345998")
 local Ss = Library:AddTab("Stats","4483345998")
@@ -3838,6 +3839,26 @@ local T = Library:AddTab("Teleport","4483345998")
 local S = Library:AddTab("Shop","4483345998")
 local D = Library:AddTab("Devil Fruit","4483345998")
 local Misc = Library:AddTab("Misc","4483345998")
+--- ThÃ´ng Tin
+NguyenTien:AddSeperator("Information Developer")
+NguyenTien:AddLabel("Owner: Nguyen Tien (Tiny)")
+NguyenTien:AddLabel("Support Code: Lynx (My Girl Friend)")
+NguyenTien:AddLabel("Ui: Thunderz Hub")
+NguyenTien:AddLabel("Thank You For Assisting Me With The\n Script Interface!")
+
+NguyenTien:AddSeperator("Social Network")
+NguyenTien:AddButton("Discord Sever",function()
+setclipboard("https://discord.gg/Dg5nr8CrVV")
+Notif.New("Copying To Clipboard DoneðŸŽ‰", 3)
+end)
+NguyenTien:AddButton("YouTube Official",function()
+setclipboard("https://youtube.com/@imtienguyenz")
+Notif.New("Copying To Clipboard DoneðŸŽ‰", 3)
+end)
+NguyenTien:AddButton("Facebook Official Owner",function()
+setclipboard("https://www.facebook.com/minhtien.modder")
+Notif.New("Copying To Clipboard DoneðŸŽ‰", 3)
+end)
 ---- Trang Chá»§
 Main:AddSeperator("Farm Settings")
 
